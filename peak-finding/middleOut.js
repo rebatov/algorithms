@@ -23,6 +23,8 @@ if (array[Math.floor(len / 2)] < array[Math.floor(len / 2) - 1]) {
 } else {
     peak.index = len / 2;
     peak.value = array[len / 2];
+    console.log(peak);
+    console.timeEnd('total');
 }
 
 function forLooper(start, end) {
